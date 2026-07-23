@@ -13,7 +13,7 @@ console.log(null == 0);//=>false
 console.log(null >= 0);//=>true
 // the reson is that an equality check == and comparisons><,>=<= work diffrently. Comparisons convert null to a number, treating it as 0. that's why (3) null >= 0 ture and (1)null > 0 is false.
 
-console.log(undifined == 0);
+console.log(undifined == 0);// => error
 console.log(undifined > 0);
 console.log(undifined < 0);
 
